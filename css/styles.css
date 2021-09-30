@@ -45,3 +45,7 @@ li a:hover {
 }
 
 /* Contact form */
+.contactForm {
+    margin: auto;
+    display: block;
+}
