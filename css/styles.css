@@ -1,0 +1,18 @@
+body {
+    text-align: center;
+    background-color: mediumpurple;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.big {
+    font-size: 32px;
+}
+
+.med {
+    font-size: 28px;
+}
+
+.small {
+    font-size: 24px;
+}
