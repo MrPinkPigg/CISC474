@@ -1,4 +1,4 @@
-
+/* Main styles */
 body {
     text-align: center;
     background-color: mediumpurple;
@@ -18,6 +18,7 @@ body {
     font-size: 24px;
 }
 
+/* Navbar */
 .navbar {
     list-style-type: none;
     margin: 0;
@@ -25,15 +26,12 @@ body {
     background-color: #333;
     overflow: hidden;
 }
-
 li {
     float: left;
 }
-
 li a:hover {
     background-color: #111;
 }
-
 .navitem{
     display: inline;
     display: block;
@@ -42,7 +40,8 @@ li a:hover {
     padding: 14px 16px;
     text-decoration: none;
 }
-
 .active {
     background-color: #111;
 }
+
+/* Contact form */
