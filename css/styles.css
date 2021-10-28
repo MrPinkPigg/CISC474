@@ -1,28 +1,69 @@
-/*palette 
-#ac7e62
-#ba9a88
-#d2c8bc
-#bbcfd7
-#5b828e
+/*
+palette 
+    #ac7e62
+    #ba9a88
+    #d2c8bc
+    #bbcfd7 
+    #5b828e
 */
 
 /* Main styles */
 .general {
     max-width: auto;
     margin: auto;
-    text-align: centers;
+    text-align: center;
 }
 body {
     background: #ac7e62;
+    text-align: center;
 }
 h1 {
-
+    color: black;
 }
 h2 {
-
+    color: black;
 }
 p {
+    color: black;
+}
+#splitPage {
+    display: flex;
+}
+.splitChild {
+    flex: 1;
+}
 
+/* Main page nav buttons */
+.imgButton {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+}
+.imgButton img {
+    width: 100%;
+    height: auto;
+}
+.imgButton .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #555;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+.imgButton .btn:hover {
+    background-color: black;
+}
+.blur {
+    filter: blur(8px);
+    width: 60%;
 }
 
 /* Navbar, from W3 */
@@ -92,7 +133,7 @@ p {
     text-align: center;
     padding: 3px;
     background-color: #ba9a88;
-    color: #f2f2f2;
+    color: black;
 }
 
 /* Contact form using emailjs */
