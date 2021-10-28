@@ -25,7 +25,7 @@ p {
 
 }
 
-/* Navbar */
+/* Navbar, from W3 */
 .navbar {
     background-color: #ba9a88;
     overflow: hidden;
@@ -88,7 +88,7 @@ p {
 }
 
 
-/* Contact form */
+/* Contact form using emailjs */
 .contactForm {
     margin: auto;
     display: block;
