@@ -87,6 +87,13 @@ p {
     display: block;
 }
 
+/* Footer */
+.footerClass {
+    text-align: center;
+    padding: 3px;
+    background-color: #ba9a88;
+    color: #f2f2f2;
+}
 
 /* Contact form using emailjs */
 .contactForm {
