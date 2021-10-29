@@ -10,7 +10,7 @@ function sendmail() {
     let user_message = document.getElementById("message").value;
 
     //grabs full form for reset later
-    var frm = document.getElementById("frm");
+    var frm = document.getElementById("contactForm");
 
     //only sends if minimum fields are filled out
     if(user_lname != "" && user_fname != "" && user_message != ""){

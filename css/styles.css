@@ -141,7 +141,34 @@ ul {
 }
 
 /* Contact form using emailjs */
-.contactForm {
-    margin: auto;
-    display: block;
+.contact {
+    text-align: left;
+    display: inline-block;
+    border-radius: 10px;
+    border: 3px solid #f1f1f1;
+    background-color: white;
+    padding: 25px;
+    width:50%;
+    margin-bottom: 100px;
+    margin-top: 30px;
+
+
+}
+input[type=text], input[type=tel], input[type=email]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+
+}
+textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #ccc;
+    box-sizing: border-box;
+    resize: vertical;
 }

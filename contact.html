@@ -28,13 +28,27 @@
             </div>
         </div>
 
+        <!--Contact Form-->
+        <div class="contact">
+            <form id="contactForm">
+                <input type="text" id="fName" name="firstName" placeholder="First name:" required>
+                <input type="text" id="lName" name="lastName" placeholder="Last name:" required>
+                <input type="email" id="email" name="email" placeholder="Email: (abc@email.com)">
+                <input type="tel" id="phone" name="phoneNumber" placeholder="Phone number:">
+                <textarea id="message" rows="3" placeholder="Message:" required></textarea>
+
+                 <button onclick="sendmail()" type="button">Send</button>
+            </form>
+        </div>
+
         <!--Footer-->
         <footer>
             <div class="footerClass">
                 <p>Aaron Knestaut<br>
-                <a href="mailto:aaronk@udel.edu">Email</a><br>
-                <a href="https://www.linkedin.com/">LinkedIn</a><br>
-                <a href="https://github.com/">Github</a></p>
+                    <a href="mailto:aaronk@udel.edu">Email</a><br>
+                    <a href="https://www.linkedin.com/">LinkedIn</a><br>
+                    <a href="https://github.com/">Github</a>
+                </p>
             </div>
         </footer>
 </body>
