@@ -32,6 +32,9 @@ p {
 .splitChild {
     flex: 1;
 }
+ul {
+    list-style-type: none;
+  }
 
 /* Main page nav buttons */
 .imgButton {
