@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-211570436-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-211570436-1');
+    </script>
+
     <link rel="stylesheet" href="css/styles.css">
     <meta charset="utf-8">
     <script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
@@ -37,7 +47,7 @@
                 <input type="tel" id="phone" name="phoneNumber" placeholder="Phone number:">
                 <textarea id="message" rows="3" placeholder="Message:" required></textarea>
 
-                 <button onclick="sendmail()" type="button">Send</button>
+                <button onclick="sendmail()" type="button">Send</button>
             </form>
         </div>
 
