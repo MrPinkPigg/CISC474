@@ -38,6 +38,7 @@ p {
     position: relative;
     width: 100%;
     max-width: 400px;
+    margin-left: 24%;
 }
 .imgButton img {
     width: 100%;
